@@ -1,0 +1,7 @@
+classifier = FashionMNISTClassifier()
+classifier.load_data()
+classifier.build_model()
+classifier.train_model()
+classifier.evaluate_model()
+classifier.build_probability_model()
+classifier.plot_results()
